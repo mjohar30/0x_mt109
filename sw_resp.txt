@@ -1,0 +1,36 @@
+1. Diseño -> Desarrollo -> Pruebas -> Implementación -> Mantenimiento
+Creo que se debe usar cuando no se tiene planeado que el cliente o el usuario final vayan a pedir posibles cambios, ya que no
+habría "espacio" en el ciclo de vida para esos cambios, sólo en la parte de Mantenimiento. Si es posible que el cliente te vaya cambiando
+algunas cosas del proyecto conforme pase el desarrollo, no deberías usar un modelo en cascada.
+
+2. Las pruebas unitarias consisten en probar una función de nuestra aplicación de manera invidivual, sin importarnos en 
+ese momento si funcionaría en conjunto con la aplicación en general. En las pruebas de integración, probamos si todas o una gran
+parte de nuestra aplicación funciona correctamente, no una por una como en las pruebas unitarias.
+
+3. Se tienen diferentes roles al aplicar SCRUM: 
+    -Uno es el product owner, que en pocas palabras es el cliente o el representante del mismo.
+    -Otro es el scrum master, que será el lider del proyecto y tendrá constante comunicación con el product owner.
+    -Y el scrum team sería el encargado de desarrollar el proyecto.
+Se tiene que planificar el sprint, que es un periodo de tiempo corto donde se desarrolla un determinado número de tareas.
+También se tiene que tener un backlog donde se anotan todos los requisitos que nos dió el product owner del proyecto.
+Se hacer un daily que consiste en una reunión al empezar el día para ver como va el equipo, que fue lo que hicieron el día anterior y qué
+les falta hacer.
+
+4. Usando TDD necesitas primero enfocarte en las pruebas y después hacer el código correspondiente. Al empezar tu desarrollo de esta forma (enfocarte a las pruebas) te 
+evitarás problemas en el momento que ya hayas avanzado en tu aplicación y necesites hacer dichas pruebas. Si empiezas a desarrollar y no te enfocas en las pruebas, al 
+final del día tendrías que refactorizar gran parte de tu código para poder realizarlas.
+
+5. No se espera hasta el final del desarrollo para unir todo el proyecto, sino que constantemente se unen las diferentes partes para ver
+si todo va funcionando correctamente al unirse. 
+    * Se tienen menos errores en la implementación, debido a que se está probando con regularidad la aplicación.
+    * Se tiene un producto funcional sin terminarlo al 100% ya que al probarlo y que funcione una pequeña parte, tendrías un producto que podrías
+    empezar a mostrar a tu cliente.
+6. -
+7. -
+8.  * Menos errores en el código ya que los errores que no identifiques tú, los podrá identificar la otra persona
+    * Más rapidez a la hora de desarrollar debido a que si el que está programado no sabe con exactitud cómo hacer algo, la otra persona
+    le puede decir en ese momento y así evitar el tener que investigar la forma de resolverlo.
+    * Aprendes a trabajar en equipo de una forma más eficaz.
+9. -
+10. You don't know Javacript: Up & Going
+
