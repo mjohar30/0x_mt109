@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.card-onroute {
+    border-left: 5px #498FE3 solid;   
+}
+
+.card-completed{
+    border-left: 5px #75AE28 solid;
+}
+
+.muted {
+    color: #CFD2D5
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.badge_container {
+    display: flex;
+    align-items: center;
+}
+
+.badge{
+    display: inherit;
+    justify-content: center;
+    font-size: 15px;
+    width: 70px;
+    border-radius: 10px;
+    color: white;
+}
+
+.badge-onroute {
+    background-color: #498FE3;
+}
+
+.badge-completed {
+    background-color: #75AE28;
+}
